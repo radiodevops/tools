@@ -15,6 +15,7 @@ wget https://github.com/derailed/k9s/releases/download/v0.32.5/${K9S}
 sudo yum install ./${K9S}
 rm -rf $K9S
 
+mkdir -p ~/.config
 sudo curl -sS https://starship.rs/install.sh | sh
 
 echo 'eval "$(starship init bash)"' >> ~/.bashrc
