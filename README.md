@@ -12,7 +12,7 @@ fc-cache -fv
 rm -rf $FONT
 
 wget https://github.com/derailed/k9s/releases/download/v0.32.5/${K9S}
-sudo yum install ./${K9S}
+sudo yum install ./${K9S} -y
 rm -rf $K9S
 
 mkdir -p ~/.config
