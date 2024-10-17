@@ -8,7 +8,7 @@ This script is designed to automate the setup of a development environment on a 
 
 ### Features:
 1. **Font Installation:**
-   - Downloads and installs the JetBrains Mono font from the Nerd Fonts repository.
+   - Downloads and installs the `JetBrainsMono Nerd Font Mono` font from the Nerd Fonts repository.
    
 2. **Tool Installation:**
    - Installs `k9s`, a Kubernetes CLI tool, to manage clusters.
